@@ -1,0 +1,25 @@
+A focus of this thesis was to study the relatively underused numerical
+differentiation technique called Complex Taylor Series Expansion or CTSE.  A
+research objective was to verify experimentally whether CTSE could be used to
+compute tangent-stiffness matrices or Jacobians for use in Newton's method for
+solving nonlinear systems.
+
+ CTSE was interesting for this application because prior literature showed it
+to be simple to implement, robust and highly accurate for taking derivitives of
+1D functions. Because Jacobian accuracy is critical for ensuring fast
+convergence of Newton's method, it was seen as worthwhile to look at CTSE for
+this application.  
+
+Another objective was to then evaluate CTSE as an alternative to other methods
+for computing Jacobians including Automatic Differentiation or AD, and Finite
+Difference. AD is essentially a computer implementation of the chain rule.  The
+basis of comparison would be Jacobian accuracy, end solution accuracy,
+iteration speed, efficiency and convergence rate.  
+
+A last objective was to compare the methods within a production scale,
+massively-parallel code under varying conditions.  The computational
+peridynamics code, Peridigm, developed at Sandia National Labs was chosen as a
+testbed because it already included implementations of AD and
+finite-difference.  The purpose of this was to evaluate the scalability of each
+of the methods under conditions of varying problem size and varying level of
+parallelization.

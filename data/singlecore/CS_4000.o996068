@@ -1,0 +1,251 @@
+
+--Peridigm--
+
+Converting input file newbar_4000.g to sphere mesh:
+  Element blocks: block_1
+  Node sets: nodelist_1 nodelist_2 nodelist_3 nodelist_4 nodelist_5 nodelist_6
+
+Allocating global tangent matrix...
+  number of rows = 12288
+  number of nonzeros = 15389352
+
+Load step 1, initial time = 0, final time = 1, convergence criterion = 1e-08
+  iteration 1: residual = 2020.48
+AD CS FRBNRM: 2.6013776670608e-10
+AD FD FRBNRM: 0.11948724704144
+AD CD FRBNRM: 0.00044743644798601
+The Frobenius norms of the Jacbobians by themselves: 
+AD Jac FRBNRM: 1032705.2442821
+CS Jac FRBNRM 1032705.2442821
+CD Jac FRBNRM: 1032705.2440847
+FD Jac FRBNRM: 1032705.2440848
+****************************************************
+Norm difference ratios to AD Jac FRBNRM as percentage: 
+(AD CS FRBNRM)/(AD Jac FRBNRM)*100.0: 2.5189933734375e-14 %
+(AD CD FRBNRM)/(AD Jac FRBNRM)*100.0: 4.3326636565795e-08 %
+(AD FD FRBNRM)/(AD Jac FRBNRM)*100.0: 1.1570314734336e-05 %
+Norm similarity ratios to AD Jac FRBNRM: 
+(CS Jac FRBNRM)/(AD Jac FRBNRM): 1
+(CD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999980883
+(FD Jac FRBNRM)/(AD Jac FRBNRM): 0.9999999998089
+================================================================================
+
+                      TimeMonitor results over 1 processor
+
+Timer Name                                   Global time (num calls)    
+--------------------------------------------------------------------------------
+Automatic Differentiation Compute Time       11.84 (1)                  
+Belos: BlockCGSolMgr total solve time        0 (0)                      
+Belos: Orthogonalization                     0 (0)                      
+Central Difference Compute Time              19.61 (1)                  
+Complex Step Differentiation Compute Time    24.72 (1)                  
+Forward Difference Compute Time              12.74 (1)                  
+Phalanx: Evaluator 0: EvaluateDamage         1.192e-05 (1)              
+Phalanx: Evaluator 1: EvaluateForce          0.02008 (1)                
+Phalanx: Evaluator 2: EvaluateJacobian       0 (1)                      
+================================================================================
+  iteration 2: residual = 92.534822094349
+AD CS FRBNRM: 2.2807650882753e-10
+AD FD FRBNRM: 0.11976409866369
+AD CD FRBNRM: 0.00046298007478223
+The Frobenius norms of the Jacbobians by themselves: 
+AD Jac FRBNRM: 1030244.6321999
+CS Jac FRBNRM 1030244.6321999
+CD Jac FRBNRM: 1030244.6319779
+FD Jac FRBNRM: 1030244.6319774
+****************************************************
+Norm difference ratios to AD Jac FRBNRM as percentage: 
+(AD CS FRBNRM)/(AD Jac FRBNRM)*100.0: 2.2138092419905e-14 %
+(AD CD FRBNRM)/(AD Jac FRBNRM)*100.0: 4.4938848532858e-08 %
+(AD FD FRBNRM)/(AD Jac FRBNRM)*100.0: 1.1624821418186e-05 %
+Norm similarity ratios to AD Jac FRBNRM: 
+(CS Jac FRBNRM)/(AD Jac FRBNRM): 1
+(CD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978444
+(FD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978403
+================================================================================
+
+                      TimeMonitor results over 1 processor
+
+Timer Name                                   Global time (num calls)    
+--------------------------------------------------------------------------------
+Automatic Differentiation Compute Time       24.08 (2)                  
+Belos: BlockCGSolMgr total solve time        0.4933 (1)                 
+Belos: Operation Op*x                        0.496 (27)                 
+Belos: Operation Prec*x                      0.002216 (28)              
+Belos: Orthogonalization                     0 (0)                      
+Central Difference Compute Time              40.87 (2)                  
+Complex Step Differentiation Compute Time    51.84 (2)                  
+Forward Difference Compute Time              26.31 (2)                  
+Phalanx: Evaluator 0: EvaluateDamage         1.478e-05 (11)             
+Phalanx: Evaluator 1: EvaluateForce          0.2628 (11)                
+--------------------------------------------------------------------------------
+Phalanx: Evaluator 2: EvaluateJacobian       70.03 (2)                  
+================================================================================
+  iteration 3: residual = 0.26972828474673
+AD CS FRBNRM: 2.2727258646447e-10
+AD FD FRBNRM: 0.11975837893288
+AD CD FRBNRM: 0.00046218775273193
+The Frobenius norms of the Jacbobians by themselves: 
+AD Jac FRBNRM: 1030254.1190928
+CS Jac FRBNRM 1030254.1190928
+CD Jac FRBNRM: 1030254.1188707
+FD Jac FRBNRM: 1030254.1188712
+****************************************************
+Norm difference ratios to AD Jac FRBNRM as percentage: 
+(AD CS FRBNRM)/(AD Jac FRBNRM)*100.0: 2.2059857102496e-14 %
+(AD CD FRBNRM)/(AD Jac FRBNRM)*100.0: 4.4861529225322e-08 %
+(AD FD FRBNRM)/(AD Jac FRBNRM)*100.0: 1.16241591966e-05 %
+Norm similarity ratios to AD Jac FRBNRM: 
+(CS Jac FRBNRM)/(AD Jac FRBNRM): 1
+(CD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978439
+(FD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978485
+================================================================================
+
+                      TimeMonitor results over 1 processor
+
+Timer Name                                   Global time (num calls)    
+--------------------------------------------------------------------------------
+Automatic Differentiation Compute Time       36.33 (3)                  
+Belos: BlockCGSolMgr total solve time        1.681 (2)                  
+Belos: Operation Op*x                        1.69 (92)                  
+Belos: Operation Prec*x                      0.00692 (94)               
+Belos: Orthogonalization                     0 (0)                      
+Central Difference Compute Time              62.14 (3)                  
+Complex Step Differentiation Compute Time    78.95 (3)                  
+Forward Difference Compute Time              39.87 (3)                  
+Phalanx: Evaluator 0: EvaluateDamage         1.764e-05 (21)             
+Phalanx: Evaluator 1: EvaluateForce          0.5104 (21)                
+--------------------------------------------------------------------------------
+Phalanx: Evaluator 2: EvaluateJacobian       145.3 (3)                  
+================================================================================
+  iteration 4: residual = 1.1982677373317e-05
+AD CS FRBNRM: 2.2725935167939e-10
+AD FD FRBNRM: 0.11975996407135
+AD CD FRBNRM: 0.00046232763566962
+The Frobenius norms of the Jacbobians by themselves: 
+AD Jac FRBNRM: 1030254.0035845
+CS Jac FRBNRM 1030254.0035845
+CD Jac FRBNRM: 1030254.0033625
+FD Jac FRBNRM: 1030254.0033624
+****************************************************
+Norm difference ratios to AD Jac FRBNRM as percentage: 
+(AD CS FRBNRM)/(AD Jac FRBNRM)*100.0: 2.2058574961971e-14 %
+(AD CD FRBNRM)/(AD Jac FRBNRM)*100.0: 4.4875111774484e-08 %
+(AD FD FRBNRM)/(AD Jac FRBNRM)*100.0: 1.1624314358855e-05 %
+Norm similarity ratios to AD Jac FRBNRM: 
+(CS Jac FRBNRM)/(AD Jac FRBNRM): 1
+(CD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978452
+(FD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978449
+================================================================================
+
+                      TimeMonitor results over 1 processor
+
+Timer Name                                   Global time (num calls)    
+--------------------------------------------------------------------------------
+Automatic Differentiation Compute Time       48.58 (4)                  
+Belos: BlockCGSolMgr total solve time        2.887 (3)                  
+Belos: Operation Op*x                        2.902 (158)                
+Belos: Operation Prec*x                      0.01163 (161)              
+Belos: Orthogonalization                     0 (0)                      
+Central Difference Compute Time              83.41 (4)                  
+Complex Step Differentiation Compute Time    106.1 (4)                  
+Forward Difference Compute Time              53.43 (4)                  
+Phalanx: Evaluator 0: EvaluateDamage         2.05e-05 (31)              
+Phalanx: Evaluator 1: EvaluateForce          0.7579 (31)                
+--------------------------------------------------------------------------------
+Phalanx: Evaluator 2: EvaluateJacobian       220.6 (4)                  
+================================================================================
+  iteration 5: residual = 1.1804575369438e-09
+  cpu time for load step = 3.1e+02 sec., cummulative cpu time = 3.1e+02 sec.
+
+Load step 2, initial time = 1, final time = 2, convergence criterion = 1e-08
+  iteration 1: residual = 2e+03
+  iteration 2: residual = 0.46
+AD CS FRBNRM: 2.2734178026545e-10
+AD FD FRBNRM: 0.11967256271149
+AD CD FRBNRM: 0.00046496711660197
+The Frobenius norms of the Jacbobians by themselves: 
+AD Jac FRBNRM: 1031985.8276372
+CS Jac FRBNRM 1031985.8276372
+CD Jac FRBNRM: 1031985.8274143
+FD Jac FRBNRM: 1031985.8274139
+****************************************************
+Norm difference ratios to AD Jac FRBNRM as percentage: 
+(AD CS FRBNRM)/(AD Jac FRBNRM)*100.0: 2.2029544803532e-14 %
+(AD CD FRBNRM)/(AD Jac FRBNRM)*100.0: 4.5055571903205e-08 %
+(AD FD FRBNRM)/(AD Jac FRBNRM)*100.0: 1.1596337808774e-05 %
+Norm similarity ratios to AD Jac FRBNRM: 
+(CS Jac FRBNRM)/(AD Jac FRBNRM): 1
+(CD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978402
+(FD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978364
+================================================================================
+
+                      TimeMonitor results over 1 processor
+
+Timer Name                                   Global time (num calls)    
+--------------------------------------------------------------------------------
+Automatic Differentiation Compute Time       60.83 (5)                  
+Belos: BlockCGSolMgr total solve time        4.483 (4)                  
+Belos: Operation Op*x                        4.5 (245)                  
+Belos: Operation Prec*x                      0.01787 (249)              
+Belos: Orthogonalization                     0 (0)                      
+Central Difference Compute Time              104.7 (5)                  
+Complex Step Differentiation Compute Time    133.2 (5)                  
+Forward Difference Compute Time              66.98 (5)                  
+Phalanx: Evaluator 0: EvaluateDamage         2.575e-05 (52)             
+Phalanx: Evaluator 1: EvaluateForce          1.278 (52)                 
+--------------------------------------------------------------------------------
+Phalanx: Evaluator 2: EvaluateJacobian       295.9 (5)                  
+================================================================================
+  iteration 3: residual = 3.6950923588111e-05
+AD CS FRBNRM: 2.2693932443153e-10
+AD FD FRBNRM: 0.11967385343522
+AD CD FRBNRM: 0.00046451968474093
+The Frobenius norms of the Jacbobians by themselves: 
+AD Jac FRBNRM: 1031980.8695016
+CS Jac FRBNRM 1031980.8695016
+CD Jac FRBNRM: 1031980.8692782
+FD Jac FRBNRM: 1031980.8692787
+****************************************************
+Norm difference ratios to AD Jac FRBNRM as percentage: 
+(AD CS FRBNRM)/(AD Jac FRBNRM)*100.0: 2.1990652262879e-14 %
+(AD CD FRBNRM)/(AD Jac FRBNRM)*100.0: 4.501243176778e-08 %
+(AD FD FRBNRM)/(AD Jac FRBNRM)*100.0: 1.1596518595643e-05 %
+Norm similarity ratios to AD Jac FRBNRM: 
+(CS Jac FRBNRM)/(AD Jac FRBNRM): 1
+(CD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978351
+(FD Jac FRBNRM)/(AD Jac FRBNRM): 0.99999999978406
+================================================================================
+
+                      TimeMonitor results over 1 processor
+
+Timer Name                                   Global time (num calls)    
+--------------------------------------------------------------------------------
+Automatic Differentiation Compute Time       73.08 (6)                  
+Belos: BlockCGSolMgr total solve time        5.652 (5)                  
+Belos: Operation Op*x                        5.675 (309)                
+Belos: Operation Prec*x                      0.02242 (314)              
+Belos: Orthogonalization                     0 (0)                      
+Central Difference Compute Time              125.9 (6)                  
+Complex Step Differentiation Compute Time    160.3 (6)                  
+Forward Difference Compute Time              80.53 (6)                  
+Phalanx: Evaluator 0: EvaluateDamage         3.076e-05 (62)             
+Phalanx: Evaluator 1: EvaluateForce          1.525 (62)                 
+--------------------------------------------------------------------------------
+Phalanx: Evaluator 2: EvaluateJacobian       371.2 (6)                  
+================================================================================
+  iteration 4: residual = 3.0708988596807e-09
+  cpu time for load step = 1.6e+02 sec., cummulative cpu time = 4.7e+02 sec.
+
+
+Wallclock Time (seconds):
+  Total                            4.9e+02
+  Solve Linear System                    7
+  Output                              0.23
+  Line Search                          1.6
+  Internal Force                       1.8
+  Gather/Scatter                    0.0035
+  Evaluate Jacobian                4.5e+02
+  Compute Residual                     1.8
+  Allocate Global Tangent               27
+

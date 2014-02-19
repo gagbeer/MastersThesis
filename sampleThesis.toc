@@ -1,0 +1,31 @@
+\select@language {english}
+\contentsline {chapter}{Acknowledgements}{iii}{Doc-Start}
+\contentsline {chapter}{Abstract}{iv}{Doc-Start}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.1}
+\contentsline {chapter}{List of Figures}{ix}{chapter*.2}
+\contentsline {chapter}{Chapter {1}: {Introduction}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Differentiation Techniques}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The ``complex-step'' method.}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Automatic-differentiation}{4}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Tangent-stiffness}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Differencing formulas for tangent-stiffness matrix evaluation.}{6}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Working examples of CS, AD and FD for Newton's method}{8}{section.1.3}
+\contentsline {chapter}{Chapter {2}: {Description of analysis tools and approach.}}{10}{chapter.2}
+\contentsline {section}{\numberline {2.1}Peridigm and peridynamics.}{10}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Implementing the complex-step method in Peridigm}{11}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}The Comparative Study}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Quantities of interest}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Computers and other software}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Data Reduction}{16}{subsection.2.2.3}
+\contentsline {chapter}{Chapter {3}: {Results and Discussion}}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Speed Data}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Accuracy Data}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Efficiency Data}{21}{section.3.3}
+\contentsline {chapter}{Chapter {4}: {Conclusions}}{23}{chapter.4}
+\contentsline {chapter}{Appendix {A}: {Complex-Step Example}}{25}{appendix.A}
+\contentsline {chapter}{Appendix {B}: {AD Example}}{26}{appendix.B}
+\contentsline {chapter}{Appendix {C}: {Header-only library}}{29}{appendix.C}
+\contentsline {chapter}{Appendix {D}: {Example program 1: Intersection of infinite paraboloids}}{56}{appendix.D}
+\contentsline {chapter}{Appendix {E}: {Example program 2: Nonlinear system case study}}{62}{appendix.E}
+\contentsline {chapter}{Bibliography}{71}{appendix*.4}
+\contentsline {vita}{Vita}{75}{appendix*.4}

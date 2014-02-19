@@ -1,0 +1,113 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.9)  6 NOV 2013 13:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**abstract.tex
+(./abstract.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./abstract.aux)
+\openout1 = `abstract.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+
+Overfull \hbox (2.43759pt too wide) in paragraph at lines 7--37
+\OT1/cmr/m/n/12 In or-der to main-tain the quadratic con-ver-gence prop-er-ties
+ of New-ton's method
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--37
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./abstract.aux) ) 
+Here is how much of TeX's memory you used:
+ 223 strings out of 495059
+ 2392 string characters out of 3182031
+ 49416 words of memory out of 3000000
+ 3490 multiletter control sequences out of 15000+200000
+ 4245 words of font info for 16 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 22i,4n,19p,155b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on abstract.pdf (1 page, 33650 bytes).
+PDF statistics:
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

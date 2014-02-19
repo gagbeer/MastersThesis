@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sampleThesis.aux
+The style file: spmpsci.bst
+Database file #1: all.bib
+Warning--empty journal in perez2012numerical
+You've used 31 entries,
+            2946 wiz_defined-function locations,
+            794 strings with 9755 characters,
+and the built_in function-call counts, 21432 in all, are:
+= -- 2459
+> -- 482
+< -- 8
++ -- 300
+- -- 168
+* -- 971
+:= -- 2192
+add.period$ -- 37
+call.type$ -- 31
+change.case$ -- 175
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 2400
+empty$ -- 1377
+format.name$ -- 192
+if$ -- 4394
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 314
+newline$ -- 138
+num.names$ -- 62
+pop$ -- 871
+preamble$ -- 1
+purify$ -- 145
+quote$ -- 0
+skip$ -- 1187
+stack$ -- 0
+substring$ -- 928
+swap$ -- 1945
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 116
+warning$ -- 1
+while$ -- 109
+width$ -- 33
+write$ -- 325
+(There was 1 warning)

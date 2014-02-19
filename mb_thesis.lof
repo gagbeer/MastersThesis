@@ -1,0 +1,14 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figure 1.1}{\ignorespaces Beam and spring simulated in example program.}}{11}{subsection.1.4.3}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figure 3.1}{\ignorespaces Serial test series speed measurements.}}{23}{section.3.1}
+\contentsline {figure}{\numberline {Figure 3.2}{\ignorespaces Multicore test series speed measurements.}}{24}{section.3.1}
+\contentsline {figure}{\numberline {Figure 3.3}{\ignorespaces Serial test series accuracy measurements.}}{25}{section.3.2}
+\contentsline {figure}{\numberline {Figure 3.4}{\ignorespaces Multicore test series accuracy measurements.}}{26}{section.3.2}
+\contentsline {figure}{\numberline {Figure 3.5}{\ignorespaces Serial test series efficiency measurements.}}{27}{section.3.3}
+\contentsline {figure}{\numberline {Figure 3.6}{\ignorespaces Multicore test series efficiency measurements.}}{27}{section.3.3}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,53 @@
+Description of Example Code
+
+In order to illustrate the complex-step technique in a simpler form than it
+appears in the \emph{Peridigm} code, an example header-only library and two
+example problem definition programs that use it have been created. All the
+materials described here are available in the associated project repository, 
+or if this thesis is being viewed in an OCR processed electronic format, 
+it may be convenient to copy the source-code from the appendix.
+
+The source code for the header-only library, \emph{NewtonRaphson.hpp} is
+reproduced in the appendix. Note that the library is an interface to functions
+and data structures made available in the \emph{Trilinos} library, mentioned
+earlier, such that it is required in order for the examples described here to
+work. \emph{Trilinos} is freely available for download as of this writing at:
+\emph{trilinos.sandia.gov}. Generally the header-only library works by taking
+in the users initial guessed equilibrium solution, target dependent variable
+values, system constants, and a function pointer to a model evaluation
+function. Solver parameters including an update scaling factor, tolerance,
+maximum iterations and probe length are chosen after the solver is
+instantiated as a new object. The behavior of the solver is specialized through
+a coding feature called inheritance to perform each of CS, AD and FD.  But, in
+common, each version of the solver works by iteratively computing the system
+Jacobian, solving a linear system as in that step of the Newton Raphson method,
+computing the residual and checking for convergence or overrun.  Additionally
+each specialization allows the problem to be fully or partially respecified to
+allow for running a series of load steps having progressing target values,
+which is a typical mode also seen in \emph{Peridigm}. Applying boundary
+conditions incrementally in load steps assists convergence [PAPER].
+
+The first example program, \emph{NRexamples.cpp}, solves a simple nonlinear
+system describing the intersection of three infinite paraboloids in threespace.
+It works by defining force computation functions for each of the models, and
+then passing an address called a function pointer corresponding to each of
+these methods to a solver object which coordinates solving the problem and
+reporting output for the user based on their convergence criteria and other
+preferences like step-size and maximum number of iterations. CS, AD and FD are
+each represented and the user is free to adjust input settings by specifying
+command line arguments as the compiled program instructs, or perhaps create a
+shell script that varies parameters for each of the methods in order to perform
+a comparative study.
+
+The second program, \emph{NRComparison.cpp}, reproduces a case study that
+appears in [PAPER]. The example program departs from the cited literature by
+applying each of CS, AD and FD and verifying them against an analytical model
+of a nonlinear mechanical system involving a connected beam and spring. The
+equations describing this system and results for verification were obtained in
+[PAPER]. The methods were used to solve the same system with the same load
+steps as in the reference. Results indicate the each of the methods are capable
+of reproducing the experimental results of the reference, when step-size is
+chosen appropriately, however for small step-size the convergence rate of CS
+superior to that of FD and equal to that resulting from relying on AD or an
+analytically computed Jacobian. For extremely small step-size FD fails to
+converge due to inaccurate Jacobian calculations in this example problem.

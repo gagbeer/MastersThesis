@@ -1,0 +1,169 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{al2010complex}
+Al-Mohy, A.H., Higham, N.J.: The complex step approximation to the fr{\'e}chet
+  derivative of a matrix function.
+\newblock Numerical Algorithms \textbf{53}(1), 133--148 (2010)
+
+\bibitem{belytschko1999nonlinear}
+Belytschko, T., Moran, B., Liu, W.K.: Nonlinear finite element analysis for
+  continua and structures, vol.~1.
+\newblock Wiley (1999)
+
+\bibitem{bobaru2011peridynamic}
+Bobaru, F., Duangpanya, M.: A peridynamic formulation for transient heat
+  conduction in bodies with evolving discontinuities.
+\newblock Journal of Computational Physics  (2011)
+
+\bibitem{chapra2010}
+Chapra, S., Canale, R.: {Numerical Methods for Engineers}, sixth edn.
+\newblock McGraw-Hill, Inc., NY (2010)
+
+\bibitem{ref-AD-methods}
+Gay, D.: Semiautomatic differentiation for efficient gradient computations.
+\newblock Tech. Rep. SAND2004-4688P, Sandia National Laboratories: Optimization
+  and Uncertainty Estimation Department (2004)
+
+\bibitem{ref-on-AD}
+Griewank, A.: On automatic differentiation.
+\newblock Tech. Rep. CRPC-TR89003, Rice University: Center for Research on
+  Parallel Computation (1989)
+
+\bibitem{ha2010sod}
+Ha, Y., Bobaru, F.: {Studies of dynamic crack propagation and crack branching
+  with peridynamics}.
+\newblock International Journal of Fracture \textbf{162}(1--2), 229--224 (2010)
+
+\bibitem{trilinos}
+Heroux, M., Bartlett, R., Howle, V., Hoekstra, R., Hu, J., Kolda, T., Lehoucq,
+  R., Long, K., Pawlowski, R., Phipps, E., Salinger, A., Thornquist, H.,
+  Tuminaro, R., Willenbring, J., Williams, A., Stanley, K.: An overview of the
+  trilinos project.
+\newblock ACM Trans. Math. Softw. \textbf{31}(3), 397--423 (2005).
+\newblock \doi{http://doi.acm.org/10.1145/1089014.1089021}
+
+\bibitem{ref-Sacado}
+Heroux, M., Willenbring, J.: Trilinos users guide.
+\newblock Tech. Rep. SAND2003-2952, Sandia National Laboratories (2003)
+
+\bibitem{hughes1978consistent}
+Hughes, T.J., Pister, K.S.: Consistent linearization in mechanics of solids and
+  structures.
+\newblock Computers \& Structures \textbf{8}(3), 391--397 (1978)
+
+\bibitem{hughes1978unconditionally}
+Hughes, T.J., Taylor, R.L.: Unconditionally stable algorithms for quasi-static
+  elasto/visco-plastic finite element analysis.
+\newblock Computers \& Structures \textbf{8}(2), 169--173 (1978)
+
+\bibitem{katiyar2013}
+Katiyar, A., Foster, J., Sharma, M.: A peridynamic formulation of pressure
+  driven convctive fluid transport in porous media.
+\newblock Journal of Computational Physics \textbf{Submitted} (2013)
+
+\bibitem{littlewood2010}
+Littlewood, D.J.: Simulation of dynamic fracture using peridynamics, finite
+  element modeling, and contact.
+\newblock ASME Conference Proceedings \textbf{2010}(44465), 209--217 (2010).
+\newblock \doi{10.1115/IMECE2010-40621}
+
+\bibitem{lyness1968differentiation}
+Lyness, J.: Differentiation formulas for analytic functions.
+\newblock Math. Comp \textbf{22}(102), 352--362 (1968)
+
+\bibitem{lyness1967numerical}
+Lyness, J., Moler, C.: Numerical differentiation of analytic functions.
+\newblock SIAM Journal on Numerical Analysis \textbf{4}(2), 202--210 (1967)
+
+\bibitem{martins2000automated}
+Martins, J., Kroo, I., Alonso, J.: An automated method for sensitivity analysis
+  using complex variables.
+\newblock AIAA paper \textbf{689}, 2000 (2000)
+
+\bibitem{peridigm}
+Parks, M., Littlewood, D., Mitchell, J., Silling, S.: Peridigm users' guide.
+\newblock SANDIA REPORT 2012-7800, Sandia National Laboratories (2012)
+
+\bibitem{perez2000numerical}
+Perez-Foguet, A., Rodriguez-Ferran, A., Huerta, A.: Numerical differentiation
+  for local and global tangent operators in computational plasticity.
+\newblock Computer methods in applied mechanics and engineering
+  \textbf{189}(1), 277--296 (2000)
+
+\bibitem{perez2012numerical}
+Perez-Foguet, A., Rodriguez-Ferran, A., Huerta, A., et~al.: Numerical
+  differentiation for non-trivial consistent tangent matrices: an application
+  to the mrs-lade model  (2012)
+
+\bibitem{ref-sacado-presentation}
+Phipps, E., Gay, D., Bartlett, R.: Sacado: Automatic differentiation tools for
+  c++ codes.
+\newblock Tech. Rep. SAND2009-7540C, Sandia National Laboratories: Computer
+  Science Research Institute (2009).
+\newblock Presented at Trilinos User's Group Meeting 2009 in Albuquerue, New
+  Mexico.
+
+\bibitem{rezaiee2010dynamic}
+Rezaiee~Pajand, M., ALAMATIAN, J.: The dynamic relaxation method using new
+  formulation for fictitious mass and damping.
+\newblock Structural Engineering and Mechanics \textbf{34} (2010)
+
+\bibitem{seleson2009peridynamics}
+Seleson, P., Parks, M.L., Gunzburger, M., Lehoucq, R.B.: Peridynamics as an
+  upscaling of molecular dynamics.
+\newblock Multiscale Modeling \& Simulation \textbf{8}(1), 204--227 (2009)
+
+\bibitem{silling2000ret}
+Silling, S.: Reformulation of elasticity theory for discontinuities and
+  long-range forces.
+\newblock Journal of the Mechanics and Physics of Solids \textbf{48}(1),
+  175--209 (2000).
+\newblock \doi{10.1016/S0022-5096(99)00029-0}
+
+\bibitem{silling:psa}
+Silling, S., Epton, M., Weckner, O., Xu, J., Askari, E.: Peridynamic states and
+  constitutive modeling.
+\newblock J Elasticity \textbf{88}, 151--184 (2007).
+\newblock \doi{10.1007/s10659-007-9125-1}
+
+\bibitem{silling2010peridynamic}
+Silling, S., Lehoucq, R.: Peridynamic theory of solid mechanics.
+\newblock Advances in Applied Mechanics \textbf{44}, 73--168 (2010).
+\newblock \doi{10.1016/S0065-2156(10)44002-8}
+
+\bibitem{simo1998}
+Simo, J., Hughes, T.: Computational Inelasticity.
+\newblock Springer, New York (1998)
+
+\bibitem{squire1998using}
+Squire, W., Trapp, G.: Using complex variables to estimate derivatives of real
+  functions.
+\newblock {SIAM Review} pp. 110--112 (1998)
+
+\bibitem{ref-Cubit}
+Team, C.D.: Cubit 14.0 user documentation.
+\newblock Tech. rep., Sandia National Laboratories (2013)
+
+\bibitem{ref-Adaggio}
+Team, S.S.M.: Adagio 4.18 user's guide.
+\newblock Tech. Rep. SAND2010-6313, Sandia National Laboratories (2010)
+
+\bibitem{voorhees2011complex}
+Voorhees, A., Millwater, H., Bagley, R.: Complex variable methods for shape
+  sensitivity of finite element models.
+\newblock Finite elements in analysis and design \textbf{47}(10), 1146--1156
+  (2011).
+\newblock \doi{10.1016/j.finel.2011.05.003}
+
+\bibitem{young2009}
+Young, T., Mohlenkamp, M.: {Introduction to Numerical Methods and Matlab
+  Programming for Engineers}.
+\newblock Ohio University Department of Mathematics, OH (2009)
+
+\end{thebibliography}
